@@ -1,4 +1,4 @@
-
+//Chatgpt was used here to help create the GET, POST, PUT, and DELETE Method
 
 using Microsoft.AspNetCore.Mvc;
 using HomeApi.Models;
@@ -11,6 +11,7 @@ namespace HomeApi.Controllers
     {
         private static List<Home> homes = new()
         {
+            //create example data to simulate in on the server
             new Home
             {
                 House = "36 Prosperity Pathway",
@@ -37,6 +38,7 @@ namespace HomeApi.Controllers
             }
         };
 
+        //This is to test the GET requrest on swagger
         [HttpGet]
         public ActionResult<List<Home>> GetHomes() => Ok(homes);
 
@@ -48,6 +50,8 @@ namespace HomeApi.Controllers
             return Ok(home);
         }
 
+        //This is to test the POST request method
+        //User can put in their own example of a house
         [HttpPost]
         public IActionResult CreateHome(Home home)
         {
@@ -58,6 +62,7 @@ namespace HomeApi.Controllers
             return CreatedAtAction(nameof(GetHome), new { id = home.Id }, home);
         }
 
+        //This is to test the put request 
         [HttpPut("{id}")]
         public IActionResult UpdateHome(string id, Home updatedHome)
         {
@@ -77,6 +82,8 @@ namespace HomeApi.Controllers
             return NoContent();
         }
 
+        //This isto test the delete method 
+        //Deletes a home and its attributes based of this id number
         [HttpDelete("{id}")]
         public IActionResult DeleteHome(string id)
         {

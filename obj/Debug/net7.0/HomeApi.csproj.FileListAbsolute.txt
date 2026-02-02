@@ -24,6 +24,7 @@
 /Users/sbdjay/HomeApi/obj/Debug/net7.0/HomeApi.csproj.CoreCompileInputs.cache
 /Users/sbdjay/HomeApi/obj/Debug/net7.0/HomeApi.MvcApplicationPartsAssemblyInfo.cs
 /Users/sbdjay/HomeApi/obj/Debug/net7.0/HomeApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/sbdjay/HomeApi/obj/Debug/net7.0/HomeApi.sourcelink.json
 /Users/sbdjay/HomeApi/obj/Debug/net7.0/rjimswa.dswa.cache.json
 /Users/sbdjay/HomeApi/obj/Debug/net7.0/rjsmrazor.dswa.cache.json
 /Users/sbdjay/HomeApi/obj/Debug/net7.0/rjsmcshtml.dswa.cache.json

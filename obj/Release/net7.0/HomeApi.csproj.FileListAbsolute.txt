@@ -33,3 +33,4 @@
 /Users/sbdjay/HomeApi/obj/Release/net7.0/HomeApi.pdb
 /Users/sbdjay/HomeApi/obj/Release/net7.0/HomeApi.genruntimeconfig.cache
 /Users/sbdjay/HomeApi/obj/Release/net7.0/ref/HomeApi.dll
+/Users/sbdjay/HomeApi/obj/Release/net7.0/HomeApi.sourcelink.json
