@@ -1,0 +1,8 @@
+/Users/sbdjay/HomeApi/obj/Release/net8.0/HomeApi.csproj.AssemblyReference.cache
+/Users/sbdjay/HomeApi/obj/Release/net8.0/rpswa.dswa.cache.json
+/Users/sbdjay/HomeApi/obj/Release/net8.0/HomeApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sbdjay/HomeApi/obj/Release/net8.0/HomeApi.AssemblyInfoInputs.cache
+/Users/sbdjay/HomeApi/obj/Release/net8.0/HomeApi.AssemblyInfo.cs
+/Users/sbdjay/HomeApi/obj/Release/net8.0/HomeApi.csproj.CoreCompileInputs.cache
+/Users/sbdjay/HomeApi/obj/Release/net8.0/HomeApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/sbdjay/HomeApi/obj/Release/net8.0/HomeApi.MvcApplicationPartsAssemblyInfo.cache

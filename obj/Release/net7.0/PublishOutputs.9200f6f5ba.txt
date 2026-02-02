@@ -1,0 +1,11 @@
+/Users/sbdjay/HomeApi/bin/Release/net7.0/publish/HomeApi
+/Users/sbdjay/HomeApi/bin/Release/net7.0/publish/appsettings.Development.json
+/Users/sbdjay/HomeApi/bin/Release/net7.0/publish/appsettings.json
+/Users/sbdjay/HomeApi/bin/Release/net7.0/publish/HomeApi.dll
+/Users/sbdjay/HomeApi/bin/Release/net7.0/publish/HomeApi.deps.json
+/Users/sbdjay/HomeApi/bin/Release/net7.0/publish/HomeApi.runtimeconfig.json
+/Users/sbdjay/HomeApi/bin/Release/net7.0/publish/HomeApi.pdb
+/Users/sbdjay/HomeApi/bin/Release/net7.0/publish/Microsoft.OpenApi.dll
+/Users/sbdjay/HomeApi/bin/Release/net7.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/Users/sbdjay/HomeApi/bin/Release/net7.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/sbdjay/HomeApi/bin/Release/net7.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
