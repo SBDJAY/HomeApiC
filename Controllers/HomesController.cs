@@ -14,6 +14,7 @@ namespace HomeApi.Controllers
             //create example data to simulate in on the server
             new Home
             {
+                Id = 1,
                 House = "36 Prosperity Pathway",
                 Town = "Toronto",
                 Price = 849000,
@@ -26,6 +27,7 @@ namespace HomeApi.Controllers
             },
             new Home
             {
+                Id = 2,
                 House = "47 Eight Street ",
                 Town = "Toronto",
                 Price = 2288000,
@@ -40,31 +42,27 @@ namespace HomeApi.Controllers
 
         //This is to test the GET requrest on swagger
         [HttpGet]
-        public ActionResult<List<Home>> GetHomes() => Ok(homes);
-
+        public ActionResult<List<Home>> GetHomes()
+        {
+            return Ok(homes);
+        }
         [HttpGet("{id}")]
-        public ActionResult<Home> GetHome(string id)
+        public ActionResult<Home> GetHome(int id)
         {
             var home = homes.FirstOrDefault(h => h.Id == id);
             if (home == null) return NotFound();
             return Ok(home);
         }
 
-        //This is to test the POST request method
-        //User can put in their own example of a house
         [HttpPost]
         public IActionResult CreateHome(Home home)
         {
-            if (string.IsNullOrEmpty(home.Id))
-                home.Id = Guid.NewGuid().ToString();
-
             homes.Add(home);
             return CreatedAtAction(nameof(GetHome), new { id = home.Id }, home);
         }
 
-        //This is to test the put request 
         [HttpPut("{id}")]
-        public IActionResult UpdateHome(string id, Home updatedHome)
+        public IActionResult UpdateHome(int id, Home updatedHome)
         {
             var home = homes.FirstOrDefault(h => h.Id == id);
             if (home == null) return NotFound();
@@ -75,17 +73,12 @@ namespace HomeApi.Controllers
             home.Bed = updatedHome.Bed;
             home.Bath = updatedHome.Bath;
             home.SaleStatus = updatedHome.SaleStatus;
-            home.Distance = updatedHome.Distance;
-            home.PosterImageName = updatedHome.PosterImageName;
-            home.Description = updatedHome.Description;
 
             return NoContent();
         }
 
-        //This isto test the delete method 
-        //Deletes a home and its attributes based of this id number
         [HttpDelete("{id}")]
-        public IActionResult DeleteHome(string id)
+        public IActionResult DeleteHome(int id)
         {
             var home = homes.FirstOrDefault(h => h.Id == id);
             if (home == null) return NotFound();

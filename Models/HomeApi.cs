@@ -3,7 +3,7 @@ namespace HomeApi.Models
     //This Class is an exact copy of the Home Model class in Xcode
     public class Home
     {
-        public string Id { get; set; } = Guid.NewGuid().ToString();
+        public int Id { get; set; } 
         public string House { get; set; } = string.Empty;
         public string Town { get; set; } = string.Empty;
         public int Price { get; set; }
