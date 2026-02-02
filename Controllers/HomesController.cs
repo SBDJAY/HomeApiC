@@ -73,7 +73,9 @@ namespace HomeApi.Controllers
             home.Bed = updatedHome.Bed;
             home.Bath = updatedHome.Bath;
             home.SaleStatus = updatedHome.SaleStatus;
-
+            home.Distance = updatedHome.Distance;
+            home.PosterImageName = updatedHome.PosterImageName;
+            home.Description = updatedHome.Description;
             return NoContent();
         }
 
